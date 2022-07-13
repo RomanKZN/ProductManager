@@ -1,7 +1,6 @@
 public class ProductManager {
 
-    private final ProductRepository repository;
-    private ProductRepository repo;
+    private ProductRepository repository;
 
     public ProductManager(ProductRepository repository) {
         this.repository = repository;
